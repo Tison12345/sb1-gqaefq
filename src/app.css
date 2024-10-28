@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-primary {
+  background-color: #1a472a;
+}
+
+.bg-secondary {
+  background-color: #2d5a3c;
+}
+
+.text-primary {
+  color: #ffffff;
+}
+
+.gauge-container {
+  width: 200;
+  height: 200;
+  margin: 20;
+}
+
+.menu-icon {
+  font-size: 24;
+  color: #ffffff;
+  padding: 10;
+}
+
+.search-bar {
+  background-color: #ffffff;
+  border-radius: 20;
+  padding: 10;
+  margin: 10;
+}
+
+.tab-icon {
+  font-size: 24;
+  color: #ffffff;
+}
+
+.auth-input {
+  background-color: #ffffff;
+  border-radius: 10;
+  padding: 15;
+  margin: 10;
+  color: #000000;
+}
+
+.auth-button {
+  background-color: #ffd700;
+  border-radius: 25;
+  padding: 15;
+  margin: 10;
+  color: #000000;
+  font-weight: bold;
+}
+
+.fas {
+  font-family: "FontAwesome";
+}
+
+ActionBar {
+  background-color: #1a472a;
+  color: #ffffff;
+}
+
+.progress {
+  background-color: #ffffff;
+  color: #ffd700;
+}
